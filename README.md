@@ -3,10 +3,8 @@
 Matrícula do Aluno (README)
 
 ```mermaid
-graph LR
+graph RL
 
-
-Cadastro_Aluno[Início]
 
 
 
