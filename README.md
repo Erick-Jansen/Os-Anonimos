@@ -6,7 +6,7 @@ Matrícula do Aluno (README)
 graph LR
 
 
-Cadastro_Aluno[]
+Cadastro_Aluno[Início]
 
 
 
