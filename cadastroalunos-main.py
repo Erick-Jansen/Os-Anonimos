@@ -151,7 +151,7 @@ def consultar_aluno():
                 if not encontrado:
                     print(f"Aluno com matrícula {matricula} não encontrado.")
             elif opcao == "b":
-                matricula = input("Digite o nome completo do aluno para consultar os dados dos responsáveis: ").strip()
+                matricula = input("Digite a matrícula do aluno para consultar os dados dos responsáveis: ").strip()
                 encontrado = False
                 for aluno in alunos:
                     if aluno['matricula'] == matricula:
