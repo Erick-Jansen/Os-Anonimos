@@ -146,7 +146,7 @@ def consultar_aluno():
                 for aluno in alunos:
                     if aluno['matricula'] == matricula:
                         encontrado = True
-                        print(f"\nDados do Aluno:\nNome: {aluno['nome']}\nData de Nascimento: {aluno['data_nascimento']}\nIdade: {aluno['idade_anos']} anos\nE-mail: {aluno['email']}\nEndereço: {aluno['endereco']}\nContato: {aluno['contato_aluno']}\nNome do Responsável: {aluno['nome_responsavel']}\nContato do Responsável: {aluno['contato_responsavel']}\nGrau Escolaridade: {aluno['grau_escolaridade']}\nMatrícula: {aluno['matricula']}\nIdentidade: {aluno['identidade']}")
+                        print(f"\nDados do Aluno:\nNome: {aluno['nome']}\nData de Nascimento: {aluno['data_nascimento']}\nIdade: {aluno['idade_anos']} anos\nE-mail: {aluno['email']}\nEndereço: {aluno['endereco']}\nContato: {aluno['contato_aluno']}\nNome do Responsável: {aluno['nome_responsavel']}\nContato do Responsável: {aluno['contato_responsavel']}\nGrau de Escolaridade: {aluno['grau_escolaridade']}\nMatrícula: {aluno['matricula']}\nIdentidade: {aluno['identidade']}")
                         break
                 if not encontrado:
                     print(f"Aluno com matrícula {matricula} não encontrado.")
