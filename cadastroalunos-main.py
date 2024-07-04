@@ -139,7 +139,7 @@ def consultar_aluno():
             print("c. Listar todos os alunos matriculados")
             print("d. Voltar ao menu principal")
             opcao = input("Digite sua opção (a, b, c ou d): ")
-
+        
             if opcao == "a":
                 matricula = input("Digite a matrícula do aluno: ").strip()
                 encontrado = False
@@ -170,6 +170,7 @@ def consultar_aluno():
                 print("Opção inválida! Por favor, escolha a, b, c ou d.")
         
         input("\nPressione Enter para continuar...")
+        break
 
 def excluir_aluno():
     os.system('cls' if os.name == 'nt' else 'clear')
