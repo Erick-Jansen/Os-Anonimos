@@ -31,7 +31,7 @@ def validar_data_nascimento(data_str):
         ano = int(data_str[4:])
         data_nascimento = datetime.datetime(ano, mes, dia)
         idade_anos = calcular_idade(data_nascimento)
-        if idade_anos < 4:
+        if idade_anos < 5:
             raise ValueError("Aluno deve ter pelo menos 4 anos de idade")
         return data_nascimento
     except ValueError as e:
